@@ -1,0 +1,165 @@
+Steps to Complete the Tasks:
+Task-1: Develop the Website
+Review the Designs
+
+Check the screens from Assignment-1 and note the layout, colors, typography, and elements used.
+Set Up the Project Folder
+
+Create a folder for your project (e.g., assignment_2).
+Inside, create the following files:
+index.html (Main HTML file)
+style.css (CSS file for styling)
+Write HTML Structure
+
+Use <header>, <nav>, <section>, <footer>, etc., to structure the webpage.
+Add necessary elements like buttons, images, and links based on your design.
+Apply CSS Styling
+
+Style the page using style.css.
+Use Flexbox or Grid for layouts.
+Apply colors, fonts, and spacing as per the design.
+Test Responsiveness
+
+Use media queries (@media) to make the design responsive for mobile and desktop views.
+Task-2: Upload Code in assignment_2 Folder
+Ensure All Files Are in assignment_2
+
+The folder should contain:
+index.html
+style.css
+Any images (images/ folder)
+Other assets if needed (JS, fonts)
+Upload the Folder
+
+If submitting online, use the given platform (Google Drive, GitHub, or your college portal).
+If submitting via USB, copy assignment_2 and ensure everything is included.
+Need Help?
+Let me know if you need a sample HTML & CSS template or help with specific design issues!
+
+
+
+
+
+
+
+You said:
+Task-1: Develop a website using HTML and CSS of screens designed in
+assignment-1
+ChatGPT said:
+To develop a website using HTML & CSS based on the screens designed in Assignment-1, follow these structured steps:
+
+1. Set Up the Project Folder
+Create a new folder assignment_2.
+Inside it, create:
+index.html (Main HTML file)
+style.css (CSS file for styling)
+images/ (Folder for images, if needed)
+assets/ (Optional for fonts, icons, or scripts)
+2. Build the HTML Structure (index.html)
+Write clean, semantic HTML. Example:
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Main Heading</h2>
+        <p>Short description goes here.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <footer>
+        <p>© 2025 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+3. Apply CSS Styling (style.css)
+Design the page to match your Assignment-1 layout.
+
+css
+Copy
+Edit
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.hero .btn {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 30px;
+}
+4. Test Responsiveness
+Use Flexbox or CSS Grid.
+Add media queries to adjust for mobile devices.
+Example:
+
+css
+Copy
+Edit
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
